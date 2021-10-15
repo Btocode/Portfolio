@@ -20,7 +20,7 @@
 
     <div class="nav-container">
       <div class="logo-container">
-        <a href="index.html"><img class="logo" src="./Assets/images/Untitled design (2).png" alt="Site Logo"></a>
+        <a href="index.html"><img class="logo" src="./Assets/images/mylogo.png" alt="Site Logo"></a>
 
       </div>
       <div class="menu-container">
@@ -38,7 +38,7 @@
   </header>
 
   <main class="my-cv" style="display: flex; justify-content: center;">
-    <iframe src="Assets/PDF/CV2.pdf" width="80%" height="1000px">
+    <iframe src="Assets/PDF/CV2.pdf" width="800" height="1000">
     </iframe>
   </main>
 
@@ -81,23 +81,25 @@
 
     </div>
     <h4 class="time">Current Date and Time is <span id='date-time'></span>.</h4>
-    <h4 class="time">Last Modified  <span id="last-modified"></span></h4>
-</Footer>
+    <h4 class="time">Last Modified <span id="last-modified"></span></h4>
+  </Footer>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
- AOS.init({
-     offset:300,
-     duration:1000
- });
-</script>
-<script>
-var dt = new Date();
-var date = document.lastModified;
-document.getElementById('date-time').innerHTML=dt;
-document.getElementById('last-modified').innerHTML = date;
-</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+    integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000
+    });
+  </script>
+  <script>
+    var dt = new Date();
+    var date = document.lastModified;
+    document.getElementById('date-time').innerHTML = dt;
+    document.getElementById('last-modified').innerHTML = date;
+  </script>
 </body>
 
 </html>
