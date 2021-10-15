@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+/* Basic CSS */
+:root {
+  --wrapper_value: 10%;
+}
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
+}
+main{
+    background-color: #355070;
+}
+.info-main{
+    min-height: 500px;
+    width: 100%;
+}
+
+.me{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #307e8b;
+}
+.me h1{
+    color: rgb(212, 245, 243);
+    }
+.info-container{
+    width: 70%;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(123, 141, 160);
+}
+.section-title{
+    position: sticky;
+    top: 190px;
+    height: 200px;
+    width: 35%;
+   
+}
+.section-title h2{
+    text-transform: uppercase;
+    color: #0F4C5C;
+    font-size: 35px;
+}
+.section-para{
+    height: 200px;
+    width: 55%;
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.section-para p,h3{
+    font-size: 25px;
+    color: #14213d;
+    padding: 5px;
+}
+.about-me, .education, .my-hobbies, .photography, .fav-links{
+    display: flex;
+    background-color: #E5E5E5;
+    margin-top: 20px;
+    border: none;
+    padding: 20px;
+
+}
+
+.my-photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    background-color:#355070;
+}
+my-photo .photo{
+margin-bottom: 20px;
+}
+.my-photo .photo img{
+    height: 240px;
+    width: 430px;
+    padding: 0px 10px;
+}
+.my-photo .photo img:hover{
+    height: 260px;
+    width: 460px;
+    box-shadow:black;
+}
+
+
+.section-para a{
+    text-decoration: none;
+    color: #14213d;
+    font-size: 25px;
+    padding: 10px;
+}
+.section-para a:hover{
+    background-color: rgb(238, 148, 148);
+}
+
+.photo-title{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photo-title h2{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #E5E5E5;   
+    text-transform: uppercase;
+
+}

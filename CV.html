@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/css/info.css">
+  <link rel="stylesheet" href="./Assets/css/styles.css">
+  <link rel="shortcut icon" href="./Assets/images/circle-cropped.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Sayed | Portfolio| Resume</title>
+</head>
+
+<body>
+  <header class="sticky">
+
+    <div class="nav-container">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo" src="./Assets/images/Untitled design (2).png" alt="Site Logo"></a>
+
+      </div>
+      <div class="menu-container">
+        <a class="cta" href="#contact"><button>Contact</button></a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html#skills">Skills</a></li>
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="info.html">Info</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="my-cv" style="display: flex; justify-content: center;">
+    <iframe src="Assets/PDF/CV2.pdf" width="80%" height="1000px">
+    </iframe>
+  </main>
+
+  <Footer id="contact">
+    <div class="footer-container">
+      <div class="site-links">
+        <div class="title-1">
+          <h2>Find Me</h2>
+        </div>
+        <div class="site-icons" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
+          <ul class="list">
+            <li>
+              <a href="https://www.facebook.com/afsan.saeed">
+                <i class="fab fa-facebook-f icon"></i> </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/afsan_sr"><i class="fab fa-twitter icon"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/s-afsan-rahmatullah-79566718b/"><i
+                  class="fab fa-linkedin-in icon"></i></a></li>
+            <li>
+              <a href="https://www.instagram.com/afsan_sayed/"><i class="fab fa-google-plus-g icon"></i></a></li>
+            <li>
+              <a href="https://github.com/Btocode"><i class="fab fa-github icon"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300">
+          <input name="name" type="text" class="feedback-input" placeholder="Name" />
+          <input name="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+
+      </div>
+
+    </div>
+    <h4 class="time">Current Date and Time is <span id='date-time'></span>.</h4>
+    <h4 class="time">Last Modified  <span id="last-modified"></span></h4>
+</Footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+ AOS.init({
+     offset:300,
+     duration:1000
+ });
+</script>
+<script>
+var dt = new Date();
+var date = document.lastModified;
+document.getElementById('date-time').innerHTML=dt;
+document.getElementById('last-modified').innerHTML = date;
+</script>
+</body>
+
+</html>
