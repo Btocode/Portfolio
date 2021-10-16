@@ -24,15 +24,24 @@
                     <a href="index.html"><img class="logo" src="./Assets/images/mylogo.png" alt="Site Logo"></a>
 
                </div>
-               <div class="menu-container">
-                    <button><a class="cta" href="#contact">Contact</a></button>
-                    <nav>
-                         <ul class="nav-links">
-                              <li><a href="#skill">Skills</a></li>
-                              <li><a href="#projects">Projects</a></li>
-                              <li><a href="info.html">Info</a></li>
-                         </ul>
-                    </nav>
+               <div class="menu-container" style="display: flex;">
+                    <div class="button-container">
+                         <form action="#contact">
+                              <button class="gfg" type="submit">
+                                   Contact
+                              </button>
+                         </form>
+                    </div>
+
+                    <div class="nav-items">
+                         <nav>
+                              <ul class="nav-links">
+                                   <li><a href="#skill">Skills</a></li>
+                                   <li><a href="#projects">Projects</a></li>
+                                   <li><a href="info.html">Info</a></li>
+                              </ul>
+                         </nav>
+                    </div>
                </div>
 
           </div>
@@ -48,9 +57,15 @@
                          <div class="txt-container">
                               <h1 class="text" data-aos="fade-right">Hi <strong>there . .</strong></h1>
                               <h2 class="name" data-aos="fade-right">I am Afsan</h2>
-                              <p class="para" data-aos="fade-right">Welcome To My Webpage. <br> You can see my CV from here ..</p>
-                              <button class="btn" data-aos="fade-right" data-aos-duration="1000"
-                                   data-aos-delay="1000"><a href="./CV.html">MY CV</a></button>
+                              <p class="para" data-aos="fade-right">Welcome To My Webpage. <br> You can see my CV from
+                                   here ..</p>
+
+                              <form action="CV.html" data-aos="fade-right" data-aos-duration="1000"
+                                   data-aos-delay="1000">
+                                   <button type="submit" class="btn" type="">View My CV</button>
+                              </form>
+
+
                          </div>
                          <div class="vector-container">
                               <img class="image" src="./Assets/images/vector.png" alt="" data-aos="fade-left"
@@ -98,18 +113,27 @@
                <div class="project-container">
 
                     <div class="project-content">
-                         <div class="project project-1 "  data-aos="fade-right" data-aos-duration="600"
+                         <div class="project project-1 " data-aos="fade-right" data-aos-duration="600"
                               data-aos-offset="100">
                               <div class="project-title">
                                    <h3>Text Generator Using NLP</h3>
                               </div>
-                              <div class="project-desc" >
-                                   <p>Machine learning is getting crazy smart these days. You've probably read texts or scripts written by machine learning algorithms, some of them even mimicking styles of certain people! If you ever wondered how it works and what are the secrets behind machine learning, this project is for you! You will have a chance to understand and implement a simple text generator using Markov chains.</p>
-                                   <p>You will create a program that can predict the next word in a pseudo-sentence based on the previous words in the sequence and the data that is used to create a statistical model. You will get a deeper understanding of natural language processing, string operations, and the application of statistics in your code.</p>
+                              <div class="project-desc">
+                                   <p>Machine learning is getting crazy smart these days. You've probably read texts or
+                                        scripts written by machine learning algorithms, some of them even mimicking
+                                        styles of certain people! If you ever wondered how it works and what are the
+                                        secrets behind machine learning, this project is for you! You will have a chance
+                                        to understand and implement a simple text generator using Markov chains.</p>
+                                   <p>You will create a program that can predict the next word in a pseudo-sentence
+                                        based on the previous words in the sequence and the data that is used to create
+                                        a statistical model. You will get a deeper understanding of natural language
+                                        processing, string operations, and the application of statistics in your code.
+                                   </p>
                               </div>
                               <div class="git-link">
-                                   <a href="https://github.com/Btocode/JetBrains-Hyperskill-Projects"><button>View On
-                                             Github</button></a>
+                                   <form action="https://github.com/Btocode/JetBrains-Hyperskill-Projects">
+                                        <button type="submit">View On Github</button>
+                                   </form>
                               </div>
                          </div>
                          <div class="project project-2" data-aos="fade-right" data-aos-duration="800"
@@ -118,14 +142,18 @@
                                    <h3>DocTracker: "Let us help you find doctors"</h3>
                               </div>
                               <div class="project-desc">
-                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, vel aperiam!
-                                        Earum sequi quidem placeat natus nemo aliquid possimus, esse debitis, optio,
-                                        numquam illo voluptates quam ipsa tempore! Accusantium soluta perferendis
-                                        laboriosam dolor eligendi temporibus, aperiam tempora commodi earum, debitis
-                                        quisquam nemo. Maxime pariatur, expedita vero asperiores corporis aut eos.</p>
+                                   <p>Nowadays getting an appointment with doctor in online is not so reliable. So, our
+                                        purpose of making this project is to make it easy to get an appointment from
+                                        home without any hassle and high reliablity. We are trying to build a
+                                        centralized database system in which doctors and patients can find each other
+                                        easily. We have used HTML, CSS and JQuery for front-end section of this project
+                                        and Django for the beck-end section. </p>
                               </div>
+
                               <div class="git-link">
-                                   <a href="https://github.com/Btocode/Project470"><button>View On Github</button></a>
+                                   <form action="https://github.com/Btocode/Project470">
+                                        <button type="submit">View On Github</button>
+                                   </form>
                               </div>
                          </div>
                          <div class="project project-3" data-aos="fade-right" data-aos-duration="1000"
@@ -134,14 +162,17 @@
                                    <h3>DoPlasma: "Donate Plasma to help others"</h3>
                               </div>
                               <div class="project-desc">
-                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga architecto,
-                                        ducimus, sunt aperiam eius cumque veritatis commodi voluptas officiis vitae
-                                        saepe exercitationem nihil necessitatibus tempora assumenda sed quam at, beatae
-                                        non temporibus ut ratione obcaecati? Quia fuga, similique, pariatur facilis sunt
-                                        recusandae cumque asperiores sed tempore est accusantium, culpa odit.</p>
+                                   <p>We connect plasma donors with recipients, without any intermediary such as blood
+                                        banks, for an efficient and seamless process. DoPlasma's ultimate goal is to
+                                        provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get
+                                        life-saving plasma during this pendemic, totally Free of cost. We are a non
+                                        profit foundation and our main objective is to make sure that everything is done
+                                        to protect vulnerable persons.</p>
                               </div>
                               <div class="git-link">
-                                   <a href="#"><button>View On Github</button></a>
+                                   <form action="#">
+                                        <button type="submit">View On Github</button>
+                                   </form>
                               </div>
                          </div>
                          <div class="project project-4" data-aos="fade-right" data-aos-duration="1200"
@@ -150,15 +181,16 @@
                                    <h3>Btocode: Complete Portfolio website</h3>
                               </div>
                               <div class="project-desc">
-                                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas alias dignissimos
-                                        non, itaque tempora inventore, reprehenderit atque nihil eveniet impedit hic.
-                                        Quibusdam, aliquid. Reiciendis quibusdam vitae accusamus odit natus hic omnis,
-                                        amet ipsam earum repudiandae laudantium? Deserunt sit, odit corrupti tempore
-                                        natus nihil neque molestias quas eum, dolorum explicabo perspiciatis.</p>
+                                   <p>This project is one of my personal web designing project in which I built a
+                                        Complete responsive portfolio website using HTML, CSS, Bootstrap and JS. I have
+                                        used several library's to generate beautiful and eye-catchy effects. Basically,
+                                        I use this web project as my main portfolio as a freelancer. You can find my
+                                        recent works releted to web design and development in this site. </p>
                               </div>
                               <div class="git-link">
-                                   <a href="https://github.com/Btocode/Portfolio-Website"><button>View On
-                                             Github</button></a>
+                                   <form action="https://github.com/Btocode/Portfolio-Website">
+                                        <button type="submit">View On Github</button>
+                                   </form>
                               </div>
                          </div>
                     </div>
@@ -275,12 +307,15 @@
                               </li>
                               <li>
                                    <a href="https://www.linkedin.com/in/s-afsan-rahmatullah-79566718b/"><i
-                                             class="fab fa-linkedin-in icon"></i></a></li>
+                                             class="fab fa-linkedin-in icon"></i></a>
+                              </li>
                               <li>
                                    <a href="https://www.instagram.com/afsan_sayed/"><i
-                                             class="fab fa-google-plus-g icon"></i></a></li>
+                                             class="fab fa-google-plus-g icon"></i></a>
+                              </li>
                               <li>
-                                   <a href="https://github.com/Btocode"><i class="fab fa-github icon"></i></a></li>
+                                   <a href="https://github.com/Btocode"><i class="fab fa-github icon"></i></a>
+                              </li>
                          </ul>
                     </div>
                </div>

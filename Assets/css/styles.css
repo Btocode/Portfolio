@@ -119,6 +119,21 @@ button:hover {
    
 }
 
+.button-container button{
+  margin: 0 10px;
+  padding: 9px 17px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
+}
+
 .content .vector-container{
     height: 500px;
     width: 40%;
@@ -169,6 +184,20 @@ button:hover {
   padding: 10px;
   font-weight: bold;
   margin-left: 10px;
+}
+.txt-container form button{
+  margin: 0 5px;
+  padding: 9px 17px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
 }
 
 /* Skill Section */
@@ -266,16 +295,23 @@ button:hover {
   color: #0F4C5C;
 }
 .git-link{
-  margin-top: 10px;
+  display: flex;
+  margin-top: 5px;
+
 }
 .git-link button{
-  margin: 0 20px;
+  margin: 0 0px;
   padding: 5px 15px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
 }
 .git-link button:hover {
   background-color: #F0C233;
