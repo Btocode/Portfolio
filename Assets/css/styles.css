@@ -253,7 +253,7 @@ button:hover {
 .project-container{
   display: flex;
   align-items: center;
-  height: 800px;
+  height: 900px;
   width: 100%;
   background-color:#e5e5e5;
   
@@ -264,7 +264,7 @@ button:hover {
   margin-left: 50px;
   width: 20%;
   height: 100%;
-  margin-top: 30%;
+  margin-top: 40%;
 }
 .sec-title h1{
   color: #0F4C5C;
